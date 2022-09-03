@@ -1,0 +1,15 @@
+canvas{
+animation-name: bruh;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+margin-top: 70px;
+}
+
+@keyframes bruh{
+from{box-shadow: -2px 2px 30px red;}
+to{box-shadow: -2px 2px 30px blue;}
+
+}
+#g{
+font-size: xx-large;
+}
