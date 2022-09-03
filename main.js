@@ -1,5 +1,7 @@
+var x_nose=0
+var y_nose=0
  function preload(){
-var fqw=loadImage("https://i.postimg.cc/Cxjr3PxR/images-removebg-preview.png")
+var image1 =loadImage("https://i.postimg.cc/mZ3x9y9N/istockphoto-1192834521-612x612.jpg")
  }
  function setup(){
 canvas=createCanvas(400,400)
@@ -11,10 +13,8 @@ gg.on('pose',gotPoses)
  }
  function draw(){
 image(video,0,0,400,400)
-//fill(255,0,0)
-//stroke(255,0,0)
-//circle(x_nose,y_nose,24)
-image(fqw,x_nose,y_nose,30,30)
+
+image(image1,x_nose,y_nose,30,30)
 
  }
  function dg(){
@@ -32,5 +32,3 @@ x_nose=result[0].pose.nose.x-100
 y_nose=result[0].pose.nose.y-50
 }
  }
-var x_nose=0
-var y_nose=0
